@@ -10,14 +10,37 @@ body {
 }
 
 .roku-header {
-   background-color: #333;
-   padding: 0.75em 1.5em;
-   margin-bottom: 2em;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(68, 67, 67) 0%, rgba(0,0,0,1) 100%);
+   padding: 01.95em 1.5em;
+   //margin-bottom: 2em;
+   text-align: center;
+   
+   
 
    span { 
-        font-family: 'Vujahday Script', cursive;
-        font-size: 3.5em;
-        position: relative;
+        font-family: 'helvetica', cursive;
+         font-size: 3.5em;
+         position: relative;
         top: -2px;
+        
+    }
+
+
+    nav{ 
+        ul {
+            display: flex;
+            font-size: 1.4em;
+            padding-top: 0.8em;
+
+            li {
+                margin-right: 0.35em;
+                cursor: pointer;
+
+                :hover {
+                    color: rgb(117, 194, 117);
+                }
+            }
+        }
     }
 }
